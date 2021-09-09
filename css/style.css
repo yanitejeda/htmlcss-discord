@@ -1,11 +1,12 @@
 *{
     font-family: 'Heebo', sans-serif;
+    box-sizing: border-box;
 }
 .bg-hero{
     background-image: url(../img/jumbo.png);
     background-size:cover;
 }
-.header_section{
+.header_section, main{
     padding-top: 25px;
     width: 920px;
     margin: 0 auto;
@@ -14,6 +15,8 @@
 
 
 /*colori del testo*/
+
+/*
 h1-hero{
     color: white;
 }
@@ -29,6 +32,7 @@ h3-footer{
 h5-tittle{
     color: #7289DA;
 }
+*/
 
 /*dimensioni delle colonne*/
 .col-1_6{
@@ -75,17 +79,41 @@ a{
 
 .btn-light{
     background-color: white;
-    padding: 4px 11px;
+    padding: 4px 15px;
     border-radius: 15px;
 }
 
 .btn-dark{
     background-color:  #23272A;
     color: white;
-    padding: 4px 11px;
+    padding: 4px 15px;
     border-radius: 15px;
 }
 
 a.btn-light{
 margin: 30px;
+}
+
+.main_conteiner_equal{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main_conteiner_img{
+    float: left;
+}
+
+.main_conteiner_text{
+    padding-left: 50px;
+    float: left;
+}
+
+.main_conteiner_tex h2, p{
+    float: left;
+    color: #23272A;
+}
+
+h2{
+    color: #23272A;
 }

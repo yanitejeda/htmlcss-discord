@@ -1,0 +1,33 @@
+.section{
+    width: 920px;
+    margin: 0 auto;
+}
+/*colori del testo*/
+h1-hero{
+    color: white;
+}
+
+h2-section{
+    color: #23272A;
+}
+
+h3-footer{
+    color: #7188D9;
+}
+
+h5-tittle{
+    color: #7289DA;
+}
+
+/*dimensioni delle colonne*/
+.col-1_6{
+    width: calc(100% / 6);
+}
+
+.col-2_6{
+    width: calc(100% / 2);
+}
+
+.col-4_6{
+    width: calc(100% / 4);
+}

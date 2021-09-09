@@ -1,7 +1,18 @@
-.section{
+*{
+    font-family: 'Heebo', sans-serif;
+}
+.bg-hero{
+    background-image: url(../img/jumbo.png);
+    background-size:cover;
+}
+.header_section{
+    padding-top: 25px;
     width: 920px;
     margin: 0 auto;
+    color: white;
 }
+
+
 /*colori del testo*/
 h1-hero{
     color: white;
@@ -25,9 +36,56 @@ h5-tittle{
 }
 
 .col-2_6{
-    width: calc(100% / 2);
+    width: calc(100% /6 * 2);
 }
 
 .col-4_6{
-    width: calc(100% / 4);
+    width: calc(100% /6 * 4);
+}
+.header_list, .header_logo, .header_button{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header_list{
+    text-align: center;
+}
+
+.header_box-text{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.header_list a{
+    padding: 5px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+.btn-light{
+    background-color: white;
+    padding: 4px 11px;
+    border-radius: 15px;
+}
+
+.btn-dark{
+    background-color:  #23272A;
+    color: white;
+    padding: 4px 11px;
+    border-radius: 15px;
+}
+
+a.btn-light{
+margin: 30px;
 }

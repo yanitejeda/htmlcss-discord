@@ -98,6 +98,7 @@ margin: 30px;
     content: "";
     display: table;
     clear: both;
+    padding: 50px 0;
 }
 
 .main_conteiner_img{
@@ -106,8 +107,11 @@ margin: 30px;
 
 .main_conteiner_text{
     padding-top: 20px;
-    padding-left: 50px;
     float: left;
+}
+
+.main_conteiner_img_size{
+    width: 80%;
 }
 
 .main_conteiner_tex h2, p{
@@ -117,4 +121,26 @@ margin: 30px;
 
 h2{
     color: #23272A;
+}
+
+.main_conteiner_img_size{
+    width: ;
+}
+
+
+.main_conteiner_odd{
+    content: "";
+    display: table;
+    clear: both;
+    padding: 50px 0;
+}
+
+.main_conteiner_img_odd{
+    text-align: right;
+    float: right;
+}
+
+.main_conteiner_text_odd{
+    padding-top: 20px;
+    float: right;
 }

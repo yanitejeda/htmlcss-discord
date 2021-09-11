@@ -31,6 +31,11 @@ footer{
 
 .main_row_bg{
     background-color: #F6F6F6;
+    margin-top: -10px;
+}
+
+.wave_rotate{
+    transform:rotate(180deg);
 }
 
 
@@ -203,6 +208,7 @@ h2{
  .state img{
     width: 15%;
     vertical-align: middle;
+    padding-right: 5px;
  }
 
  h5, .icon-social{

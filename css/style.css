@@ -56,7 +56,7 @@ footer{
     vertical-align: middle;
 }
 
-.nav_button,{
+.nav_button{
     text-align: right;
 }
 
@@ -70,6 +70,10 @@ footer{
     text-align: center;
     margin: 0 auto;
     padding-bottom: 100px;
+}
+
+.header_box-text-button{
+    padding-top: 20px;
 }
 
 
@@ -86,7 +90,7 @@ a{
     text-decoration: none;
 }
 
-.btn-light a, .btn-light{
+.btn-light{
     background-color: white;
     padding: 4px 15px;
     border-radius: 15px;

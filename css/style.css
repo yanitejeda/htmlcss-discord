@@ -6,33 +6,33 @@
     background-image: url(../img/jumbo.png);
     background-size:cover;
 }
-.header_section, main{
+.header_section {
+    padding-top: 25px;
+    width: 920px;
+    margin: 0 auto;
+    color: white;
+}
+footer{
+    background-color: #23272A;
+}
+
+.main_conteiner_full, .main_conteiner_equal, .main_conteiner_odd{
     padding-top: 25px;
     width: 920px;
     margin: 0 auto;
     color: white;
 }
 
-
-/*colori del testo*/
-
-/*
-h1-hero{
-    color: white;
+.conteiner {
+    width: 920px;
+    margin: 0 auto;
+    
 }
 
-h2-section{
-    color: #23272A;
+.main_row_bg{
+    background-color: #F6F6F6;
 }
 
-h3-footer{
-    color: #7188D9;
-}
-
-h5-tittle{
-    color: #7289DA;
-}
-*/
 
 /*dimensioni delle colonne*/
 .col-1_6{
@@ -51,7 +51,7 @@ h5-tittle{
     vertical-align: middle;
 }
 
-.nav_button{
+.nav_button,{
     text-align: right;
 }
 
@@ -68,7 +68,7 @@ h5-tittle{
 }
 
 
-li{
+.header_list li{
     list-style: none;
     display: inline-block;
 }
@@ -96,7 +96,7 @@ a{
 
 
 
-.main_btn a{
+.main_btn a, .footer_button a{
     color: white;
     padding: 4px 15px;
     background-color: #8EA1E1;
@@ -173,4 +173,81 @@ h2{
 }
 .main_conteiner_full{
     padding: 50px 0;
+}
+.footer_row_column{
+    content: "";
+    display: table;
+    clear: both;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+
+.footer_column{
+   float: left;
+   padding: 0 15px;
+}
+
+.fab li{
+    list-style: none;
+    display: inline-block;
+    
+ }
+
+ .footer_column li{
+    list-style: none;
+    color: white;
+    
+ }
+
+ .state img{
+    width: 15%;
+    vertical-align: middle;
+ }
+
+ h5, .icon-social{
+     display: inline-block;
+ }
+
+
+ .icon-social{
+     padding-right: 10px;
+ }
+
+ footer h3, footer h5{
+    color: #7289DA;
+ }
+
+ .foooter_line_brake{
+     border: 1px solid #7289DA;
+ }
+
+ .footer_bar{
+    content: "";
+    display: table;
+    clear: both;
+    padding: 50px 0;
+    width: 100%;
+ }
+
+ .footer_logo{
+     float: left;
+ }
+
+ .footer_button{
+     float: right;
+ }
+
+ .main_star{
+     text-align: center;
+ }
+
+ .main_star img{
+    position: relative;
+    top: 50px;
+}
+
+.wave img{
+    width: 100%;
+    color: #23272A;
 }

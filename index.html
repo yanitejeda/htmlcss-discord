@@ -5,6 +5,7 @@
     
     <link rel="stylesheet" href="css/style.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet">
@@ -46,34 +47,40 @@
 
     <main>
        <div class="main_conteiner">
-
-           <div class="main_conteiner_equal">
-
-               <div class="main_conteiner_img col-4_6"> 
-                 <img class="main_conteiner_img_size" src="img/item1.svg" alt="">
-               </div>
-
-               <div class="main_conteiner_text col-2_6"> 
-                <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
-                <p> 
-                    I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo</p>
-               </div>
-
+           <div class="main_row">
+            <div class="main_conteiner_equal">
+                <div class="main_conteiner_img col-4_6"> 
+                  <img class="main_conteiner_img_size" src="img/item1.svg" alt="">
+                </div>
+ 
+                <div class="main_conteiner_text col-2_6"> 
+                 <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+                 <p> 
+                     I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo</p>
+                </div>
+            </div>
            </div>
 
-           <div class="main_conteiner_odd">
-            <div class="main_conteiner_img_odd col-4_6"> 
-                <img class="main_conteiner_img_size" src="img/item2.svg" alt="">
-              </div>
+           
+           <div class="main_row_bg">
 
-              <div class="main_conteiner_text_odd col-2_6"> 
-               <h2>Dove trovarsi é facile</h2>
-               <p> 
-                Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo sever possono vedere che sei li e unirsi istantaneamente senza dover chiamare. 
-               </p>
-              </div>
+            <div class="wave"><img src="/img/wave.svg" alt=""></div>
+               
+            <div class="main_conteiner_odd">
+                <div class="main_conteiner_img_odd col-4_6"> 
+                    <img class="main_conteiner_img_size" src="img/item2.svg" alt="">
+                  </div>
+    
+                  <div class="main_conteiner_text_odd col-2_6"> 
+                   <h2>Dove trovarsi é facile</h2>
+                   <p> 
+                    Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo sever possono vedere che sei li e unirsi istantaneamente senza dover chiamare. 
+                   </p>
+                  </div>
+               </div>
            </div>
-
+           
+           <div class="main_row">
             <div class="main_conteiner_equal">
                 <div class="main_conteiner_img col-4_6"> 
                 <img class="main_conteiner_img_size"  src="img/item3.svg" alt="">
@@ -87,23 +94,33 @@
                 </div>
 
             </div>
-
+           </div>
+           
+           <div class="main_row_bg">
             <div class="main_conteiner_full">
-               <div class="main_conteiner_text_full "> 
-                    <h2>Tecnologia affidabile per tenersi in contatto</h2>
-                    <p> 
-                        Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.
-                    </p>
+                <div class="main_conteiner_text_full "> 
+                     <h2>Tecnologia affidabile per tenersi in contatto</h2>
+                     <p> 
+                         Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.
+                     </p>
                 </div>
-
+ 
                 <div class="main_conteiner_img_full"> 
-                    <img class="main_conteiner_img_size"  src="img/item4-big.svg" alt="">
+                     <img class="main_conteiner_img_size"  src="img/item4-big.svg" alt="">
                 </div>
-                <div class="main_btn btn light_blu">
-                    <a href="#">Scarica per Mac</a>
-                 </div>
 
-            </div>
+                <div class="main_star">
+                    <img src="img/stars.svg" alt="stelle">
+                    <h2> Pronto a iniziare la tua avventura </h2> 
+                </div>
+
+                <div class="main_btn btn light_blu">
+                     <a href="#">Scarica per Mac</a>
+                </div>
+ 
+             </div>
+           </div>
+            
         </div>
 
         
@@ -112,68 +129,82 @@
     </main>
 
     <footer>
-        <!--sezione dedicata al footer che contiene le liste e i link -->
-        <div class="footer_column">
-            <div class="footer_column"> 
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+
+        <div class="conteiner"> 
+                <!--sezione dedicata al footer che contiene le liste e i link -->
+            <div class="footer_row_column">
+                <div class="footer_column col-2_6"> 
+                    <ul>
+                        <li><h3>Il tuo posto per parlare</h3></li> 
+                        <li><div class="state"><img src="img/ita.png" alt="bandiera"><h5>Italiano</h5></div></li>
+                        <li class="icon-social" ><i class="fab fa-twitter"></i></li>
+                        <li class="icon-social" ><i class="fab fa-instagram-square"></i></li>
+                        <li class="icon-social" ><i class="fab fa-facebook"></i></li>
+                        <li class="icon-social" ><i class="fab fa-youtube"></i></li>
+                    </ul>
+                </div>
+                <div class="footer_column col-1_6"> 
+                    <ul>
+                        <li><h5>Prodotti</h5></li>
+                        <li>Scarica</li>
+                        <li>Perché Discord</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                    </ul>
+                </div>
+                <div class="footer_column col-1_6"> 
+                    <ul>
+                        <li><h5>Compagnia</h5></li>
+                        <li>Chi siamo</li>
+                        <li>Lavora con noi</li>
+                        <li>Marchio</li>
+                        <li>Marchio</li>
+                        <li>Redazione</li>
+                        <li>Negozio</li>
+                    </ul>
+                </div>
+                <div class="footer_column col-1_6"> 
+                    <ul>
+                        <li><h5>Risorse </h5></li>
+                        <li>Scarica</li>
+                        <li>Perché Discord</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                        <li>Scarica</li>
+                        <li>Perché Discord</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                    </ul>
+                </div>
+                <div class="footer_column col-1_6"> 
+                    <ul>
+                        <li><h5>Risorse</h5></li>
+                        <li>Scarica</li>
+                        <li>Perché Discord</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer_column"> 
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <div class="footer_column"> 
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <div class="footer_column"> 
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <div class="footer_column"> 
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+            <div class="foooter_line_brake"></div>
+
+            <div class="footer_bar">
+
+                <div class="footer_logo">
+                    <a href="#"> <img src="img/logo.svg" alt=""> </a>
+                </div>
+
+                
+                <div class="footer_button">
+                    <a href="#">Accedi</a>
+                </div> 
             </div>
         </div>
-        <div>
-            <div class="footer_logo"> </div>
-            <div class="footer_link"> </div>
-        </div>
+       
     </footer>
     
 </body>
